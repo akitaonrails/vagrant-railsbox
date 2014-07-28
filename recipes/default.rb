@@ -29,7 +29,7 @@ include_recipe "rvm::user_install"
 include_recipe 'lxmx_oh_my_zsh'
 
 user_account 'vagrant' do
-  shell '/bin/zsh'
+  shell '/usr/bin/zsh'
 end
 
 lxmx_oh_my_zsh_user 'vagrant' do
